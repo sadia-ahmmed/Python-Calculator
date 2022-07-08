@@ -25,3 +25,7 @@ This is a Basic Python Calculator with a few additional trigonometric functional
 #### Update Equations
 #### Update Graphical Representation of different functions 
 #### Update Tools for Statistical Analysis
+
+## Used Libraries
+#### math 
+#### time 
