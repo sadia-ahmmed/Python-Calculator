@@ -1,24 +1,32 @@
 import math
+import sys
 import time
 
 # Basic Calculator
 """
-Features:
-    Run till typed "exit"
-    Addition
-    Subtraction
-    Multiplication
-    Division
-    Power
-    Square root
-    factorial
-    Modulus
-    Series features : reverse, even , odd (optional)
+    Features:
 
-    Input options:
-    2 numbers
-    list of numbers
+    1. Addition
+    2. Subtraction 
+    3. Multiplication 
+    4. Division
+    5. Modulus 
+    6. Power
+    7. Square root 
+    8. x root over y 
+    9. Degree to radian conversion
+    10. Find sin
+    11. Find cosine 
+    12. Find tan
+    13. Find inverse sin
+    14. Find inverse cosine
+    15. Find inverse tan
+    16. Find factorial
 
+    Input variation:
+    single input
+    input 2 numbers
+    input list of numbers
 """
 
 
@@ -188,10 +196,10 @@ def run():
             Enter 'quit' to exit
     """)
     while True:
-        if select.lower() != "quit":
-            menu_selector()
+        if select.lower() == "quit":
+            sys.exit()
         else:
-            break
+            menu_selector()
 
 
 run()
