@@ -133,9 +133,10 @@ def menu_selector():
                13. Find inverse sin
                14. Find inverse cosine
                15. Find inverse tan
+               16. Find factorial
 
            """))
-    if x > 15 or x < 0:
+    if x > 16 or x < 0:
         print("Invalid Input. Try again")
         menu_selector()
     else:
@@ -175,6 +176,8 @@ def menu(x):
         find_degree_of_cos(float(input("Enter degree")))
     elif x == 15:
         find_degree_tan(float(input("Enter degree")))
+    elif x == 16:
+        print(factorial(int(input("Enter number: "))))
 
 
 def run():
